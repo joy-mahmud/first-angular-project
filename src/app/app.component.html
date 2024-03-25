@@ -1,2 +1,11 @@
+<app-navbar></app-navbar>
 <h1>welcome to first {{title}}</h1>
 <h3>{{para}}</h3>
+<button (click)="btnClick()">Click me</button>
+<button (click)="getAsyncData()">Get data</button>
+<button (click)="getDataByOfOperator()">Get data by of operator</button>
+<div>
+    <ul>
+        <li *ngFor="let item of data">{{item}}</li>
+    </ul>
+</div>

@@ -1,0 +1,7 @@
+<ul [ngStyle]="{'display':'flex','gap':'20px'}">
+    <li *ngFor="let item of navItems" [ngStyle]="{'text-decoration':'none','list-style-type':'none','cursor':'pointer'}">{{item}}</li>
+</ul>
+<input type="text" [(ngModel)]="name" >
+<div>
+    {{name}}
+</div>
